@@ -111,7 +111,7 @@ function gma_wpjmef_display_job_jobdescription_data() {
 
 
   if ( $jobdescription ) {
-    echo '<a class="wpjmef-field-jobdescription">' href=" '.( $jobdescription ).'</a>';
+   echo '<a class="wpjmef-field-jobdescription" href="'.( $jobdescription ).'" target="_blank">Job Description</a>';
   }
 
 }
